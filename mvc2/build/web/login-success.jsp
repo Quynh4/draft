@@ -21,12 +21,9 @@
     <body>
         <form action="login-success.jsp" method="post"
 
-              <%--<jsp:useBean id="bean" class="bean.LoginBean" scope="request" />--%>
               <h3>
             Welcome <a style="color: rgb(37, 232, 230); margin: center"/>
-            
-            <%--<%=bean.getName()%>--%>
-            ${bean.name}
+                        ${bean.name}
             <%@include file="index.html" %></h3>
     </form>
 
